@@ -1,0 +1,102 @@
+{
+	"extends": [
+		"airbnb",
+		"plugin:flowtype/recommended",
+		"plugin:jest/recommended"
+	],
+	"plugins": [
+		"react",
+		"jsx-a11y",
+		"import",
+		"flowtype",
+		"jest"
+	],
+	"env": {
+		"node": true,
+		"jest/globals": true
+	},
+	"globals": {
+		"__DEV__": true
+	},
+	"rules": {
+		"semi": [
+			"error",
+			"never"
+		],
+		"indent": [
+			"error",
+			"tab"
+		],
+		"no-tabs": "off",
+		"react/jsx-indent": [
+			"error",
+			"tab"
+		],
+		"react/jsx-indent-props": [
+			"error",
+			"tab"
+		],
+		"react/jsx-filename-extension": [
+			"error",
+			{
+				"extensions": [
+					".js"
+				]
+			}
+		],
+		"jsx-quotes": [
+			"error",
+			"prefer-single"
+		],
+		"no-underscore-dangle": [
+			"error",
+			{
+				"allow": [
+					"_id",
+					"_value"
+				]
+			}
+		],
+		"flowtype/require-valid-file-annotation": [
+			2,
+			"always",
+			{
+				"annotationStyle": "line"
+			}
+		],
+		"no-nested-ternary": "warn",
+		"flowtype/require-valid-file-annotation": "warn",
+		"no-use-before-define": "warn",
+		"no-unused-expressions": "warn",
+		"react/prop-types": "warn",
+		"global-require": "warn",
+		"react/require-default-props": "warn",
+		"import/extensions": "warn",
+		"import/no-unresolved": "warn",
+		"no-mixed-operators": "warn",
+		"no-unused-vars": "warn",
+		"react/sort-comp": "warn",
+		"import/prefer-default-export": "warn",
+		"import/no-extraneous-dependencies": "warn",
+		"camelcase": "warn",
+		"prefer-spread": "warn",
+		"no-restricted-syntax": "warn",
+		"guard-for-in": "warn",
+		"import/no-named-as-default": "warn",
+		"no-confusing-arrow": "warn",
+		"react/no-unused-prop-types": "warn",
+		"max-len": "warn",
+		"react/forbid-prop-types": "warn",
+		"no-return-assign": "warn",
+		"import/first": "warn",
+		"react/no-string-refs": "warn",
+		"class-methods-use-this": "warn",
+		"no-loop-func": "warn",
+		"no-undef": "warn",
+		"no-mixed-spaces-and-tabs": "warn",
+		"no-param-reassign": "warn",
+		"no-shadow": "warn",
+		"jsx-a11y/img-has-alt": "warn",
+		"no-restricted-properties": "warn"
+	}
+}
