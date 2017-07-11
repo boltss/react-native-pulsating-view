@@ -10,7 +10,9 @@
     "url": "https://github.com/boltss/react-native-pulsating-view.git"
   },
   "scripts": {
-    "build": "babel src --out-dir lib"
+	"build:clean": "rm -rf lib",
+    "build": "babel src --out-dir lib",
+	"prepublish": "npm run build:clean && npm run build"
   },
   "dependencies": {
     "prop-types": "^15.5.10"
