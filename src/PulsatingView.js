@@ -22,6 +22,10 @@ export default class PulsatingView extends Component {
 		maxScale: 1,
 	}
 
+	state: {
+		pulsateAnimation: Animated.Value,
+	}
+
 	constructor(props: Object) {
 		super(props)
 		this.state = {
