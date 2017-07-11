@@ -1,6 +1,6 @@
 {
   "name": "react-native-pulsating-view",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Everything inside this view pulsates.",
   "main": "lib/PulsatingView.js",
   "author": "Mikk Kaerner <mustneeger@icloud.com>",
