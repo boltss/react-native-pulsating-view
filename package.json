@@ -1,6 +1,6 @@
 {
   "name": "react-native-pulsating-view",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Everything inside this view pulsates.",
   "main": "lib/PulsatingView.js",
   "author": "Mikk Kaerner <mustneeger@icloud.com>",
@@ -10,9 +10,9 @@
     "url": "https://github.com/boltss/react-native-pulsating-view.git"
   },
   "scripts": {
-	"build:clean": "rm -rf lib",
+    "build:clean": "rm -rf lib",
     "build": "babel src --out-dir lib",
-	"prepublish": "npm run build:clean && npm run build"
+    "prepublish": "npm run build:clean && npm run build"
   },
   "dependencies": {
     "prop-types": "^15.5.10"
